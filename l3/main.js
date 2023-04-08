@@ -5,6 +5,8 @@ const app = Vue.createApp({
             image: './assets/images/socks_green.jpg',
             description: 'Green socks',
             url: 'https://google.com',
+            inventory: 7,
+            onSale: true,
         }
     }
 });
