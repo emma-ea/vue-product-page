@@ -15,10 +15,12 @@
       <div class="product-display">
         <div class="product-container">
           <div class="product-image">
-            <!-- image goes here -->
+            <img v-bind:src="image">
           </div>
           <div class="product-info">
             <h1>{{ product }}</h1>
+            <h2>{{ description }} </h2>
+            <h2>Buy socks @ <a :href="url">nearby stores</a> </h2>
           </div>
         </div>
       </div>
